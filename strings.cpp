@@ -4,12 +4,12 @@ using namespace std;
 int main()
 {
     string s = "Hello ";
-    // cout<<s<<endl;
-    // string name;
-    // cout<<"Please enter your name: ";
-    // cin>>name;
-    // cout<<endl;
-    // cout<<"Hello "<<name;   
+    cout<<s<<endl;
+    string name;
+    cout<<"Please enter your name: ";
+    getline(cin, name);
+    cout<<endl;
+    cout<<"Hello "<<name<<endl;   
     string a = "World";
     string w = s + a;
     string c;
