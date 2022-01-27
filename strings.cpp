@@ -5,17 +5,20 @@ int main()
 {
     string s = "Hello ";
     cout<<s<<endl;
-    string name;
-    cout<<"Please enter your name: ";
-    getline(cin, name);
-    cout<<endl;
-    cout<<"Hello "<<name<<endl;   
-    string a = "World";
-    string w = s + a;
-    string c;
-    c = w;
-    cout<<c<<endl;
-    cout<<w<<endl;
+    // string name;
+    // cout<<"Please enter your name: ";
+    // getline(cin, name);
+    // cout<<endl;
+    // cout<<"Hello "<<name<<endl;   
+    // string a = "World";
+    // string w = s + a;
+    // string c;
+    // c = w;
+    // cout<<c<<endl;
+    // cout<<w<<endl;
     cout<<s.length()<<endl;
+    cout<<s.size()<<endl;
+    cout<<s.capacity()<<endl;
+    cout<<s.max_size()<<endl;
     return 0;
 }
